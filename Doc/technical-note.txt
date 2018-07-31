@@ -1,0 +1,43 @@
+PMP Virtual Assistant Project
+=============================
+- Architechure
+    + Microservice
+    + Technology:
+        > FE: Angular 6, React, React Native, VueJS.
+        > BE: NodeJS
+        > DB: GraphQL, PostGres, MongoDB
+    + Option(s):
+        > AI, Blockchain, 3D (Three.js), Google Assistant, Alexa, Apple Siri
+- Application(s):
+    + PMP In Hand (PIH): PWA application(s)
+        > The assistant's mobile version [expected IOS, Android => developed by React Native]
+        > Feature(s):
+            1. Clock: [React Native]
+                + Alarm: Dump alarm for good guys. :v 
+                    - Basic mode
+                    - Custom mode: Add by user by mode [example: Lazy day, busy day,...]
+                + Gym Watch: Set up the timer to work out. [Reference: app TimerPlus]
+                    - Basic mode
+                    - Custom mode
+                + ADVANCE TECH:
+                    - 3D object (???)
+            2. Event Calendar: [VueJS]
+                + Basic Calendar [mode: Day, Month, Year] => find the component can add/customize event to calendar.
+                    - Add/edit/remove event.
+                        => Advance: Add the event to be an anniversary if user want. [Reminder mode]
+                    - Mode: Normal, Holiday, Weather.
+                + Get event from email [Login by email] ???
+                + Event suggestion: Based on the location and time, system suggests the event near by user [Find the open API service to get data]
+                + ADVANCE TECH:
+                    > AI to optimize the event suggestions.
+            3. To-Do-List: [React]
+                + Add to do list.
+                + Combine the data from Clock and Event Calendar to remind user [OPT: Sync CLOCK and EC to this app]
+                + ADVANCE TECH:
+                    > Make the app can compatible with Google Assistant, Alexa, Apple Siri.
+            4. Share Life Style: Social network to share the life style. [Using data from CLOCK and EVENT_CALENDAR] [Angular 6]
+                + Share post as news.
+                + Connect people.
+                + Clone the setting from post.
+                + ADVANCE TECH:
+                    > Blockchain
